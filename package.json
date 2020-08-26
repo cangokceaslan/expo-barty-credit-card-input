@@ -5,6 +5,10 @@
   "_integrity": "sha512-Kii6smMjNEKdn20s0SbMV6NsBOClRYTKSW2K7/cz841NBirB78Qul9LLmcR9NbW9kmysYoDkx7cUL6FZZ4+zNg==",
   "_location": "/react-native-credit-card-input-vertical",
   "_phantomChildren": {},
+  "strict-ssl": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "_requested": {
     "type": "tag",
     "registry": true,
@@ -24,7 +28,7 @@
   "_spec": "react-native-credit-card-input-vertical",
   "_where": "C:\\Users\\Gokceaslan\\Documents\\GitHub\\Bartme\\app38",
   "author": {
-    "name": "sbycrosz"
+    "name": "cangokceaslan"
   },
   "bugs": {
     "url": "https://github.com/sbycrosz/react-native-credit-card-input/issues"
@@ -67,10 +71,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "expo-barty-credit-card-input",
+  "name": "@cangokceaslan/expo-barty-credit-card-input",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbycrosz/react-native-credit-card-input.git"
+    "url": "git+https://github.com/cangokceaslan/expo-barty-credit-card-input.git"
   },
   "scripts": {
     "lint": "eslint --ext .js .",
