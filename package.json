@@ -1,0 +1,80 @@
+{
+  "_from": "react-native-credit-card-input-vertical",
+  "_id": "react-native-credit-card-input-vertical@0.4.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Kii6smMjNEKdn20s0SbMV6NsBOClRYTKSW2K7/cz841NBirB78Qul9LLmcR9NbW9kmysYoDkx7cUL6FZZ4+zNg==",
+  "_location": "/react-native-credit-card-input-vertical",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-credit-card-input-vertical",
+    "name": "react-native-credit-card-input-vertical",
+    "escapedName": "react-native-credit-card-input-vertical",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-credit-card-input-vertical/-/react-native-credit-card-input-vertical-0.4.4.tgz",
+  "_shasum": "65357c051774c0c811bad7b8711bb33869689f63",
+  "_spec": "react-native-credit-card-input-vertical",
+  "_where": "C:\\Users\\Gokceaslan\\Documents\\GitHub\\Bartme\\app38",
+  "author": {
+    "name": "sbycrosz"
+  },
+  "bugs": {
+    "url": "https://github.com/sbycrosz/react-native-credit-card-input/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "card-validator": "^3.0.0",
+    "lodash.compact": "^3.0.1",
+    "lodash.every": "^4.6.0",
+    "lodash.pick": "^4.4.0",
+    "lodash.values": "^4.3.0",
+    "prop-types": "^15.6.0",
+    "react-native-flip-card": "^3.4.1"
+  },
+  "deprecated": false,
+  "description": "React native credit card input component - vertical input form",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "babel-polyfill": "^6.6.1",
+    "babel-preset-react-native": "^1.8.0",
+    "eslint": "~2.2.0",
+    "eslint-config-airbnb": "6.0.2",
+    "eslint-plugin-react": "^4.2.0"
+  },
+  "homepage": "https://github.com/sbycrosz/react-native-credit-card-input#readme",
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "credit-card",
+    "credit-card input",
+    "skeuomorphic credit-card",
+    "form",
+    "flip",
+    "card",
+    "input",
+    "component",
+    "react-component",
+    "react-native-component"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "expo-barty-credit-card-input",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbycrosz/react-native-credit-card-input.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.4.4"
+}
