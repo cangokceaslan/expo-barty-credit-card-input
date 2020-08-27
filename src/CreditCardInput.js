@@ -78,9 +78,9 @@ export default class CreditCardInput extends Component {
     },
     placeholders: {
       name: "Full Name",
-      number: "1234 5678 1234 5678",
+      number: "XXXX XXXX XXXX XXXX",
       expiry: "MM/YY",
-      cvc: "CVC",
+      cvc: "XXX",
       postalCode: "34567",
     },
     inputContainerStyle: {
@@ -154,7 +154,7 @@ export default class CreditCardInput extends Component {
         />
         <CCInput
           {...this._inputProps("number")}
-          labelStyle={{ labelStyle }}
+          labelStyle={labelStyle}
           inputStyle={inputStyle}
           keyboardType="numeric"
           containerStyle={[s.inputContainer, inputContainerStyle, { paddingRight: 15 }, { width: CARD_NUMBER_INPUT_WIDTH }]}
@@ -163,18 +163,18 @@ export default class CreditCardInput extends Component {
           <CCInput {...this._inputProps("expiry")}
             keyboardType="numeric"
             inputStyle={inputStyle}
-            labelStyle={{ labelStyle }}
+            labelStyle={labelStyle}
             containerStyle={[s.inputContainer, inputContainerStyle, { paddingRight: 0 }, { marginRight: 5, width: EXPIRY_INPUT_WIDTH }]} />
           {requiresCVC &&
             <CCInput {...this._inputProps("cvc")}
-              labelStyle={{ labelStyle }}
+              labelStyle={labelStyle}
               keyboardType="numeric"
               inputStyle={inputStyle}
               containerStyle={[s.inputContainer, inputContainerStyle, { width: CVC_INPUT_WIDTH }]} />}
         </View>
         {requiresName &&
           <CCInput {...this._inputProps("name")}
-            labelStyle={{ labelStyle }}
+            labelStyle={labelStyle}
             inputStyle={inputStyle}
             containerStyle={[s.inputContainer, inputContainerStyle, { paddingRight: 15 }, { width: CARD_NUMBER_INPUT_WIDTH }]} />}
         {requiresPostalCode &&

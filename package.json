@@ -1,20 +1,16 @@
 {
-  "_from": "react-native-credit-card-input-vertical",
-  "_id": "react-native-credit-card-input-vertical@0.4.4",
+  "_from": "expo-barty-credit-card-input",
+  "_id": "expo-barty-credit-card-input@0.4.4",
   "_inBundle": false,
-  "_integrity": "sha512-Kii6smMjNEKdn20s0SbMV6NsBOClRYTKSW2K7/cz841NBirB78Qul9LLmcR9NbW9kmysYoDkx7cUL6FZZ4+zNg==",
-  "_location": "/react-native-credit-card-input-vertical",
+  "_integrity": "sha512-KtEqLu7ICIc30l6muiGHR5DNlep7k2CzGWh/JgolIVhEBkT8j0WsNZnXtaI4vJp4NRjSR2v/eCRUtPihiYdCEg==",
+  "_location": "/expo-barty-credit-card-input",
   "_phantomChildren": {},
-  "strict-ssl": false,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "react-native-credit-card-input-vertical",
-    "name": "react-native-credit-card-input-vertical",
-    "escapedName": "react-native-credit-card-input-vertical",
+    "raw": "expo-barty-credit-card-input",
+    "name": "expo-barty-credit-card-input",
+    "escapedName": "expo-barty-credit-card-input",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -23,12 +19,12 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-credit-card-input-vertical/-/react-native-credit-card-input-vertical-0.4.4.tgz",
-  "_shasum": "65357c051774c0c811bad7b8711bb33869689f63",
-  "_spec": "react-native-credit-card-input-vertical",
+  "_resolved": "https://registry.npmjs.org/expo-barty-credit-card-input/-/expo-barty-credit-card-input-0.4.4.tgz",
+  "_shasum": "34d5e220c9c1da8a41417aab2dce2f14de34c030",
+  "_spec": "expo-barty-credit-card-input",
   "_where": "C:\\Users\\Gokceaslan\\Documents\\GitHub\\Bartme\\app38",
   "author": {
-    "name": "cangokceaslan"
+    "name": "sbycrosz"
   },
   "bugs": {
     "url": "https://github.com/sbycrosz/react-native-credit-card-input/issues"
@@ -71,14 +67,14 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@cangokceaslan/expo-barty-credit-card-input",
+  "name": "expo-barty-credit-card-input",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cangokceaslan/expo-barty-credit-card-input.git"
+    "url": "git+https://github.com/sbycrosz/react-native-credit-card-input.git"
   },
   "scripts": {
     "lint": "eslint --ext .js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.4.4"
+  "version": "0.4.5"
 }
